@@ -50,42 +50,55 @@
                 </div>
               </nav>
     </header>
-    <main>
-        <div id="form">
-            <form action="#" method="post">
-                <fieldset>
-                    <legend>Escribenos</legend>
     
-                    <div><label for="NOMBRE">NOMBRE:</label>
-                        <input type="text" id="NOMBRE" placeholder="Ej: Juan">
-                    </div>
-                    <div><label for="APELLIDO">APELLIDO:</label>
-                        <input type="text" id="APELLIDO" placeholder="Ej: Perez">
-                    </div>
-                    <div><label for="MAIL">MAIL</label>
-                        <input type="email" id="MAIL" placeholder="JUANPEREZ@mail.com">
-                    </div>
-                    <div><label id="coment" for="comentario">COMENTARIO:</label>
-                        <textarea name="" id="comentario" cols="20" rows="5"></textarea>
-                    </div>
-                </fieldset>
-                <div>
-                    <p id="p_newsleter">Deseas suscribirte a nuestro newsletter?</p>
-                    <label for="si">Si</label>
-                    <input type="radio" name="elije" id="si">
-                    <label for="no">No</label>
-                    <input type="radio" name="elije" id="no">
-                </div>
-                <div>
-                    <input type="reset" value="Borrar todo">
-                    <input type="submit" value="Enviar">
     
+    <main class="container-fluid bg-warning-subtle">  
+      <div class="row h-100">
+        <div class="col justify-content-center">
+          <form action="#" method="post">
+            <fieldset>
+                <legend>Escribenos</legend>
+
+                <div><label for="NOMBRE">NOMBRE:</label>
+                    <input type="text" id="NOMBRE" placeholder="Ej: Juan">
                 </div>
-            </form>
+                <div><label for="APELLIDO">APELLIDO:</label>
+                    <input type="text" id="APELLIDO" placeholder="Ej: Perez">
+                </div>
+                <div><label for="MAIL">MAIL</label>
+                    <input type="email" id="MAIL" placeholder="JUANPEREZ@mail.com">
+                </div>
+                <div><label id="coment" for="comentario">COMENTARIO:</label>
+                    <textarea name="" id="comentario" cols="20" rows="5"></textarea>
+                </div>
+            </fieldset>
+            <div>
+                <p id="p_newsleter">Deseas suscribirte a nuestro newsletter?</p>
+                <label for="si">Si</label>
+                <input type="radio" name="elije" id="si">
+                <label for="no">No</label>
+                <input type="radio" name="elije" id="no">
+            </div>
+            <div>
+                <input type="reset" value="Borrar todo">
+                <input type="submit" value="Enviar">
+
+            </div>
+        </form>
         </div>
+            
+      </div>
     </main>
-    <footer class="container-fluid">
-        <p>AMETRINA DECO HOME</p>
+    <footer class="container-fluid"> 
+      <div class="row h-100 bg-warning ">
+        <div class="d-flex align-items-center flex-column" style="height: 1;">
+          <div class="mb-auto p-1 fw-bold">AMETRINA DECO HOME</div>
+          <div class="p-1">Todos los derechos reservados</div>         
+        </div>
+
+        
+      </div>       
+        
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
