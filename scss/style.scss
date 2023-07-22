@@ -66,3 +66,31 @@ footer{
 
 
 	  
+
+footer {
+  background-color: $color-primary;
+  text-align: center;
+
+  p {
+    font-size: 1rem;
+  }
+
+  // Estilo para los íconos de redes sociales
+  ul.list-inline {
+    li.list-inline-item {
+      display: inline-block; // Agregamos esta propiedad para que funcione la transformación
+      margin: 2px;
+      cursor: pointer;
+      transition: transform 0.2s;
+
+      img {
+        width: 30px;
+        height: 30px;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
