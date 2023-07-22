@@ -1,23 +1,17 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	
- }
- html, body {
-	height: 100%;
-	
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
- header {
-	height: 17vh;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+html, body {
+  height: 100%; }
 
-main{
-	height: 73vh;
-}
+header {
+  height: 17vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+main {
+  height: 73vh; }
 
 footer {
-    height: 10vh;
-}
+  height: 10vh; }
