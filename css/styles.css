@@ -1,3 +1,4 @@
+@import url(/node_modules/animate.css/animate.css);
 body {
   display: flex;
   flex-direction: column;
@@ -5,3 +6,5 @@ body {
 
 main {
   flex: 1; }
+
+  
