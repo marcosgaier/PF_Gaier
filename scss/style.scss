@@ -1,90 +1,9 @@
 @import '/node_modules/animate.css/animate.css';
-
-$color-primary: #FFD966;
-$color-secondary: #FFF2CC;
-header{
-	background-color: $color-primary;
-}
-
-.navbar {
-	display: flex;
-}
-
-h1 {
-	align-self: center;
-}
-
-
-body {
-	
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-
-main {
-	background-color: $color-secondary;
-	flex: 1;
-}
-
-footer{
-	background-color: $color-primary;
-}
-
-@keyframes fadeInOut {
-	0% { opacity: 0; }
-	50% { opacity: 1; }
-	100% { opacity: 0; }
-  }
-  
-  .titulo {
-	animation: fadeInOut 5s infinite;
-  }
-
-
-	
-
-	  @keyframes rotacion {
-		0% {
-		  transform: rotate(0) scale(1);
-		}
-		50% {
-		  transform: rotate(180deg) scale(1.2);
-		}
-		100% {
-		  transform: rotate(360deg) scale(1);
-		}
-	  }
-	  
-	  
-
-	  
-
-footer {
-  background-color: $color-primary;
-  text-align: center;
-
-  p {
-    font-size: 1rem;
-  }
-
-  // Estilo para los íconos de redes sociales
-  ul.list-inline {
-    li.list-inline-item {
-      display: inline-block; 
-      margin: 2px;
-      cursor: pointer;
-      transition: transform 0.2s;
-
-      img {
-        width: 30px;
-        height: 30px;
-      }
-
-      &:hover {
-        transform: scale(1.1);
-      }
-    }
-  }
-}
-
+@import './variables';
+@import './iconos';
+@import './body';
+@import './footer';
+@import './main';
+@import './header';
+@import './animaciones'
+;

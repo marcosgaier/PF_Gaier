@@ -1,4 +1,30 @@
 @import url(/node_modules/animate.css/animate.css);
+ul.list-inline li.list-inline-item {
+  display: inline-block;
+  margin: 2px;
+  cursor: pointer;
+  transition: transform 0.2s; }
+  ul.list-inline li.list-inline-item img {
+    width: 30px;
+    height: 30px; }
+  ul.list-inline li.list-inline-item:hover {
+    transform: scale(1.1); }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+footer {
+  background-color: #FFD966;
+  text-align: center; }
+  footer p {
+    font-size: 1rem; }
+
+main {
+  background-color: #FFF2CC;
+  flex: 1; }
+
 header {
   background-color: #FFD966; }
 
@@ -7,18 +33,6 @@ header {
 
 h1 {
   align-self: center; }
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; }
-
-main {
-  background-color: #FFF2CC;
-  flex: 1; }
-
-footer {
-  background-color: #FFD966; }
 
 @keyframes fadeInOut {
   0% {
@@ -38,19 +52,3 @@ footer {
     transform: rotate(180deg) scale(1.2); }
   100% {
     transform: rotate(360deg) scale(1); } }
-
-footer {
-  background-color: #FFD966;
-  text-align: center; }
-  footer p {
-    font-size: 1rem; }
-  footer ul.list-inline li.list-inline-item {
-    display: inline-block;
-    margin: 2px;
-    cursor: pointer;
-    transition: transform 0.2s; }
-    footer ul.list-inline li.list-inline-item img {
-      width: 30px;
-      height: 30px; }
-    footer ul.list-inline li.list-inline-item:hover {
-      transform: scale(1.1); }
