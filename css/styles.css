@@ -2,13 +2,19 @@
 header {
   background-color: #FFD966; }
 
+.navbar {
+  display: flex; }
+
+h1 {
+  align-self: center; }
+
 body {
-  background-color: #FFF2CC;
   display: flex;
   flex-direction: column;
   min-height: 100vh; }
 
 main {
+  background-color: #FFF2CC;
   flex: 1; }
 
 footer {
@@ -25,17 +31,6 @@ footer {
 .titulo {
   animation: fadeInOut 5s infinite; }
 
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0); }
-  40% {
-    transform: translateY(-30px); }
-  60% {
-    transform: translateY(-15px); } }
-
-.logo {
-  animation: bounce 2s infinite; }
-
 @keyframes rotacion {
   0% {
     transform: rotate(0) scale(1); }
@@ -43,9 +38,6 @@ footer {
     transform: rotate(180deg) scale(1.2); }
   100% {
     transform: rotate(360deg) scale(1); } }
-
-.logo {
-  animation: rotacion 5s; }
 
 footer {
   background-color: #FFD966;

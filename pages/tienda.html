@@ -12,24 +12,15 @@
         <title>Ametrina Deco Home - Tienda</title>
     </head>
     
-    <body class="bg-warning-subtle">
-  <header class="container-fluid   ">
-    <div class="row h-100">
-      <!-- IMAGEN LOGO -->
-        <div class="col-sm-3 col-md-2 col-lg-2 col-xl-1 col-xxl-1  d-flex  align-items-center h-100">
-            <img class="img-fluid logo " alt="Logo Ametrina"src="../img/ametrina_logo.png" >
-        </div>
-        <!-- TITULO -->
-        <div class="col-sm-7 col-md-8 col-lg-5 col-xl-6 col-xxl-6 d-flex justify-content-sm-start justify-content-md-center justify-content-lg-end justify-content-xl-end align-items-center h-100 fw-bold ">
-            <h1>Ametrina Deco Home</h1>
-        </div>
-
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg col-sm-2 col-md-2 col-lg-5 col-xl-5 col-xxl-5  fw-bold">
-                <div class="container-fluid h-100">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
+    <body >
+      <header class="container-fluid ">
+        <nav class="navbar navbar-expand-lg navbar-light  fw-bold">
+          <div class="container-fluid ">
+              <img class="logo" src="../img/ametrina_logo2.png" alt="Logo de la empresa" height="80" >        
+            <h1 class="mx-5   ">Ametrina Deco Home</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
                   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
@@ -57,6 +48,198 @@
         
     </header>
     <main>
+      <div class="container">
+        <div class="container">
+          <!-- Sección Carteras -->
+          <h2>Carteras</h2>
+          <div class="row">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card mb-4">
+                  <img src="../img/productos/carteras/Cartera Nare negra.jpg" class="card-img-top" alt="nare negra">
+                  <div class="card-body">
+                    <h5 class="card-title">Nare negra</h5>
+                    <p class="card-text">Cartera de cuero ecologico color negro</p>
+                    <!-- Agregado botón para abrir el modal -->
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalProducto1">
+                      Ver más
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- cartera nare -->
+              <div class="col-md-3">
+                <div class="card mb-4">
+                  <img src="../img/productos/carteras/Cartera Nare.jpg" class="card-img-top" alt="nare ">
+                  <div class="card-body">
+                    <h5 class="card-title">Nare </h5>
+                    <p class="card-text">Cartera de cuero ecologico color Marfil</p>
+                    <!-- Agregar botón para abrir el modal -->
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalProductoNare">
+                      Ver más
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- cartera zami -->
+              <div class="col-md-3">
+                <div class="card mb-4">
+                  <img src="../img/productos/carteras/Cartera Zami.jpg" class="card-img-top" alt="Zami ">
+                  <div class="card-body">
+                    <h5 class="card-title">Zami </h5>
+                    <p class="card-text">Cartera de cuero ecologico color Blanca</p>
+                    <!-- Agregar botón para abrir el modal -->
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalProducto3">
+                      Ver más
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- cartera Mini bag Azu -->
+              <div class="col-md-3">
+                <div class="card mb-4">
+                  <img src="../img/productos/carteras/Mini bag Azu.jpg" class="card-img-top" alt="Azu ">
+                  <div class="card-body">
+                    <h5 class="card-title">Mini Bag Azu </h5>
+                    <p class="card-text">Mini bag de cuero ecologico color peltre con detalles en dorado</p>
+                    <!-- Agregar botón para abrir el modal -->
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalProductoAzu">
+                      Ver más
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Modal nare negra -->
+          <div class="modal fade" id="modalProducto1" tabindex="-1" role="dialog" aria-labelledby="modalProducto1Label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalProducto1Label">Cartera Nare Negra</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- Contenido adicional dentro del modal -->
+                  <p>Cartera de cuero ecologico con detalles en dorado</p>
+                  <img class="img-fluid"  src="../img/productos/carteras/Cartera Nare negra.jpg" alt="Nare negra">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-warning">Agregar al carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal nare  -->
+          <div class="modal fade" id="modalProductoNare" tabindex="-1" role="dialog" aria-labelledby="modalProductoNareLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalProductoNareLabel">Cartera Nare</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- Contenido adicional dentro del modal -->
+                  <p>Cartera de cuero ecologico color marfil con detalles en dorado</p>
+                  <img class="img-fluid"  src="../img/productos/carteras/Cartera Nare.jpg" alt="Nare">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-warning">Agregar al carrito</button>
+                </div>
+              </div>
+            </div>
+            
+        </div>
+        <!-- Modal Zami  -->
+        <div class="modal fade" id="modalProducto3" tabindex="-1" role="dialog" aria-labelledby="modalProducto3Label" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalProducto3Label">Cartera Zami</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                <!-- Contenido adicional dentro del modal -->
+                <p>Cartera de cuero ecologico blanco con cadena dorada</p>
+                <img class="img-fluid"  src="../img/productos/carteras/Cartera Zami.jpg" alt="Zami">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-warning">Agregar al carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Azu  -->
+
+        <div class="modal fade" id="modalProductoAzu" tabindex="-1" role="dialog" aria-labelledby="modalProductoAzuLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalProductoAzuLabel">Mini Bag Azu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                <!-- Contenido adicional dentro del modal -->
+                <p>Mini bag de cuero ecologico con detalles en dorado</p>
+                <img class="img-fluid"  src="../img/productos/carteras/Mini bag Azu.jpg" alt="Azu">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-warning">Agregar al carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="container">
+          <!-- Sección Cerámicas -->
+          <h2>Cerámicas</h2>
+          <div class="row">
+            <!-- Repite la estructura para las cards y modales de cerámicas -->
+          </div>
+        </div>
+        
+        <div class="container">
+          <!-- Sección Blanquería -->
+          <h2>Blanquería</h2>
+          <div class="row">
+            <!-- Repite la estructura para las cards y modales de blanquería -->
+          </div>
+        </div>
+        
+        <div class="container">
+          <!-- Sección Equipos de Mate -->
+          <h2>Equipos de Mate</h2>
+          <div class="row">
+            <!-- Repite la estructura para las cards y modales de equipos de mate -->
+          </div>
+        </div>
+        
+        <div class="container">
+          <!-- Sección Iluminación -->
+          <h2>Iluminación</h2>
+          <div class="row">
+            <!-- Repite la estructura para las cards y modales de iluminación -->
+          </div>
+        </div>
+        
+        <div class="container">
+          <!-- Sección Espejos -->
+          <h2>Espejos</h2>
+          <div class="row">
+            <!-- Repite la estructura para las cards y modales de espejos -->
+          </div>
+        </div>
+        
+      </div>
+      
 
     </main>
     <footer class=" text-center ">
@@ -67,12 +250,12 @@
             <ul class="list-inline">
               <li class="list-inline-item">
                 <a href="#" target="_blank">
-                  <img src="../img/icons8-facebook-48.png" alt="Facebook" width="30" height="30">
+                  <img src="../img/logoFacevector.svg" alt="Facebook" width="30" height="30">
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="#" target="_blank">
-                  <img src="../img/icons8-instagram-48.png" alt="Instagram" width="30" height="30">
+                  <img src="../img/logoInstavector.svg" alt="Instagram" width="30" height="30">
                 </a>
               </li>
             </ul>
