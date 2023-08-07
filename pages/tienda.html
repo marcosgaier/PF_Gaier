@@ -51,7 +51,7 @@
       <div class="container">
         <div class="container">
           <!-- Sección Carteras -->
-          <h2>Carteras</h2>
+          <h2 id="carteras">Carteras</h2>
           <div class="row">
             <div class="row">
               <div class="col-md-3">
@@ -199,34 +199,276 @@
 
         
         <div class="container">
+          
+          
+          
           <!-- Sección Cerámicas -->
-          <h2>Cerámicas</h2>
+
+          
+          
           <div class="row">
-            <!-- Repite la estructura para las cards y modales de cerámicas -->
+            
+          <h2 id="Ceramicas">Ceramicas</h2>
+          <div class="row">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card mb-4">
+                  <img src="../img/productos/Ceramicas/Bandeja oval jaspeada.webp" class="card-img-top" alt="bandeja oval">
+                  <div class="card-body">
+                    <h5 class="card-title">Bandeja Oval Jaspeada</h5>
+                    <p class="card-text">Vajilla realizada en cerámica esmaltada brillante con textura.</p>
+                    <!-- Agregado botón para abrir el modal -->
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalBandejaOval">
+                      Ver más
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- posa saquito -->
+              <div class="col-md-3">
+                <div class="card mb-4">
+                  <img src="../img/productos/Ceramicas/Posa saquito te jaspeado.webp" class="card-img-top" alt="Posa saquito ">
+                  <div class="card-body">
+                    <h5 class="card-title">Posa Saquito de Te </h5>
+                    <p class="card-text">Porta saquito de té de cerámica con forma de tetera</p>
+                    <!-- Agregar botón para abrir el modal -->
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalPortasaquito">
+                      Ver más
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- taza vainilla grisi -->
+              <div class="col-md-3">
+                <div class="card mb-4">
+                  <img src="../img/productos/Ceramicas/Taza de te vainilla gris.webp" class="card-img-top" alt="taza ">
+                  <div class="card-body">
+                    <h5 class="card-title">Taza de te vainilla gris </h5>
+                    <p class="card-text">Taza de te Vainilla gris 300 cc . <p>
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modaltegris">
+                      Ver más
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              
+            </div>
           </div>
+          
+          <!-- Modal bandeja oval -->
+          <div class="modal fade" id="modalBandejaOval" tabindex="-1" role="dialog" aria-labelledby="modalBandejaOvalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalBandejaOvalLabel">Bandeja Oval</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- Contenido adicional dentro del modal -->
+                  <p>Diseño de bandeja con bordes redondeados que va muy bien para vestir una mesa de estilo casual y fresca.</p>
+                  <img class="img-fluid"  src="../img/productos/Ceramicas/Bandeja oval jaspeada.webp" alt="BandejaOval">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-warning">Agregar al carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal Portasaquito  -->
+          <div class="modal fade" id="modalPortasaquito" tabindex="-1" role="dialog" aria-labelledby="modalPortasaquitoLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalPortasaquitoLabel">Porta saquito de Te</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- Contenido adicional dentro del modal -->
+                  <p>Ideales para apoyar:
+
+                    -Té
+                    - Galleta
+                    o lo que desees!</p>
+                  <img class="img-fluid"  src="../img/productos/Ceramicas/Posa saquito te jaspeado.webp" alt="Nare">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-warning">Agregar al carrito</button>
+                </div>
+              </div>
+            </div>
+            
+        </div>
+        <!-- Modal te vainilla gris -->
+        <div class="modal fade" id="modaltegris" tabindex="-1" role="dialog" aria-labelledby="modaltegris" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modaltegrisLabel">Taza Vainilla Gris</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+                <!-- Contenido adicional dentro del modal -->
+                <p>Capacidad: 300 Cc
+                  Medidas:
+                  Alto: 7 cm
+                  Diámetro: 10, Cm
+                  
+                  Material: cerámica
+                  APTAS PARA MICROONDAS Y LAVAVAJILLAS.</p>
+                <img class="img-fluid"  src="../img/productos/Ceramicas/Taza de te vainilla gris.webp" alt="taza">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-warning">Agregar al carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
         </div>
         
         <div class="container">
-          <!-- Sección Blanquería -->
-          <h2>Blanquería</h2>
           <div class="row">
-            <!-- Repite la estructura para las cards y modales de blanquería -->
+            
+            <h2 id="mate">Equipos De Mate</h2>
+            <div class="row">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card mb-4">
+                    <img src="../img/productos/equipos de mate/bolso_mate.webp" class="card-img-top" alt="bolso">
+                    <div class="card-body">
+                      <h5 class="card-title">Bolso matero negro</h5>
+                      <p class="card-text">Gran capacidad para guardar todo lo que necesitas para el mate</p>
+                      <!-- Agregado botón para abrir el modal -->
+                      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalbolso">
+                        Ver más
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- bombilla -->
+                <div class="col-md-3">
+                  <div class="card mb-4">
+                    <img src="../img/productos/equipos de mate/bombilla.webp" class="card-img-top" alt="bombilla ">
+                    <div class="card-body">
+                      <h5 class="card-title">Bombilla Pico Loro Alpaca Cincelada Filtro Cuchara </h5>
+                      <p class="card-text">Cincelada von filtro tipo cuchara para que nunca se te tapen tus mates!</p>
+                      <!-- Agregar botón para abrir el modal -->
+                      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalbobmilla">
+                        Ver más
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- mate -->
+                <div class="col-md-3">
+                  <div class="card mb-4">
+                    <img src="../img/productos/equipos de mate/mate_arg.webp" class="card-img-top" alt="Mate ">
+                    <div class="card-body">
+                      <h5 class="card-title">Mate Pampa Nuevo Afa Selección Argentina Campeon </h5>
+                      <p class="card-text">Para nunca olvidar la alegria de ser campeones!. <p>
+                      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalmate">
+                        Ver más
+                      </button>
+                    </div>
+                  </div>
+                </div>
+  
+                
+              </div>
+            </div>
+            
+            <!-- Modal bolso -->
+            <div class="modal fade" id="modalbolso" tabindex="-1" role="dialog" aria-labelledby="modalbolsoLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalbolsoLabel">Bolso Matero negro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- Contenido adicional dentro del modal -->
+                    <p>Aro superior de polipropileno con proceso de metalizado brillante en material apto para el contacto con alimentos..
+                      Medidas : alto 7,5cm / boca 7,5cm</p>
+                    <img class="img-fluid"  src="../img/productos/equipos de mate/bolso_mate.webp" alt="bolso_mate">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-warning">Agregar al carrito</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal Portasaquito  -->
+            <div class="modal fade" id="modalPortasaquito" tabindex="-1" role="dialog" aria-labelledby="modalPortasaquitoLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="modalPortasaquitoLabel">Porta saquito de Te</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- Contenido adicional dentro del modal -->
+                    <p>Ideales para apoyar:
+  
+                      -Té
+                      - Galleta
+                      o lo que desees!</p>
+                    <img class="img-fluid"  src="../img/productos/Ceramicas/Posa saquito te jaspeado.webp" alt="Nare">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-warning">Agregar al carrito</button>
+                  </div>
+                </div>
+              </div>
+              
           </div>
-        </div>
+          <!-- Modal te vainilla gris -->
+          <div class="modal fade" id="modaltegris" tabindex="-1" role="dialog" aria-labelledby="modaltegris" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modaltegrisLabel">Taza Vainilla Gris</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- Contenido adicional dentro del modal -->
+                  <p>Capacidad: 300 Cc
+                    Medidas:
+                    Alto: 7 cm
+                    Diámetro: 10, Cm
+                    
+                    Material: cerámica
+                    APTAS PARA MICROONDAS Y LAVAVAJILLAS.</p>
+                  <img class="img-fluid"  src="../img/productos/Ceramicas/Taza de te vainilla gris.webp" alt="taza">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-warning">Agregar al carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          
+          </div>
         
-        <div class="container">
-          <!-- Sección Equipos de Mate -->
-          <h2>Equipos de Mate</h2>
-          <div class="row">
-            <!-- Repite la estructura para las cards y modales de equipos de mate -->
-          </div>
-        </div>
+          <div class="container">
+          
+          
+          
+            
         
         <div class="container">
           <!-- Sección Iluminación -->
           <h2>Iluminación</h2>
           <div class="row">
-            <!-- Repite la estructura para las cards y modales de iluminación -->
+            <img src="../img/productos/sinstock.webp" alt="sin stock">
           </div>
         </div>
         
@@ -234,7 +476,7 @@
           <!-- Sección Espejos -->
           <h2>Espejos</h2>
           <div class="row">
-            <!-- Repite la estructura para las cards y modales de espejos -->
+            <img src="../img/productos/sinstock.webp" alt="sin stock">
           </div>
         </div>
         

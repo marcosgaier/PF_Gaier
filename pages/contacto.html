@@ -46,41 +46,37 @@
     
     
     <main class="container-fluid bg-warning-subtle">  
-      <div class="row h-100">
-        <div class="col justify-content-center">
-          <form action="#" method="post">
-            <fieldset>
-                <legend>Escribenos</legend>
-
-                <div><label for="NOMBRE">NOMBRE:</label>
-                    <input type="text" id="NOMBRE" placeholder="Ej: Juan">
-                </div>
-                <div><label for="APELLIDO">APELLIDO:</label>
-                    <input type="text" id="APELLIDO" placeholder="Ej: Perez">
-                </div>
-                <div><label for="MAIL">MAIL</label>
-                    <input type="email" id="MAIL" placeholder="JUANPEREZ@mail.com">
-                </div>
-                <div><label id="coment" for="comentario">COMENTARIO:</label>
-                    <textarea name="" id="comentario" cols="20" rows="5"></textarea>
-                </div>
-            </fieldset>
-            <div>
-                <p id="p_newsleter">Deseas suscribirte a nuestro newsletter?</p>
-                <label for="si">Si</label>
-                <input type="radio" name="elije" id="si">
-                <label for="no">No</label>
-                <input type="radio" name="elije" id="no">
+      <div class="container mt-5">
+        <h2>Formulario de Contacto</h2>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
             </div>
-            <div>
-                <input type="reset" value="Borrar todo">
-                <input type="submit" value="Enviar">
-
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
             </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+
+            <!-- Box para suscripción al Newsletter -->
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="suscribirse" name="suscribirse">
+                <label class="form-check-label" for="suscribirse">Suscribirme al newsletter</label>
+            </div>
+
+            <button type="submit" class="btn btn-warning">Enviar</button>
         </form>
-        </div>
-            
-      </div>
+    </div>
+    
+    
+    
+    
+    
+    
     </main>
     <footer class=" text-center ">
       <div class="container">
